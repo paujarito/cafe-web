@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+          <!--link a bootstrap-->
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Café Fuego</title>
+</head>
+<body>
+    <img class="image-background" src="../img/image-background-2.png" alt="fondo de pantalla cafe">
+    <header>
+        <div>
+            <img class="logo-desktop" src="../img/logo-blanco-2.png" alt="logo cafe fuego">
+        </div>
+        <nav class="nav-desktop">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio </a>
+                </li>
+                <li>
+                    <a href="sobre-nosotrxs.html">Sobre nosotrxs </a>
+                </li>
+                <li>
+                    <a href="nuestro-cafe.html">Nuestro café </a>
+                </li>
+                <li>
+                    <a href="visitanos.html">Visitanos </a>
+                </li>
+                <li>
+                    <a href="tienda.html">Tienda </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img class="logo-mobile" src="../img/logo-blanco-2.png" alt="Logotipo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Café Fuego</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/sobre-nosotrxs.html">Sobre nosotrxs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/nuestro-cafe.html">Nuestro café</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/visitanos.html">Visitanos </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="espacio"> 
+            <H1>
+                Compra tu café
+            </H1>
+           <p>
+            Contamos con envíos a donde sea que te encuentres, podemos enviar desde nuestra guarida bolsas del delicioso café realizado en colectividad.
+        </p>
+        </section>
+        <section class="p-espaciado">
+            <img class="producto-tienda" src="../img/cafe-venta-2.jpeg" alt="Bolsa de cafe">
+            <h3>
+                Café Cielo Morado
+            </h3>
+            <p class="texto-tienda">
+                Una mezcla de café de la sierra de Mazatlán y las cordilleras de Tlayacapan. Un sabor único y dulce.
+            </p>
+            <h4 class="p-espaciado">
+                $150
+            </h4>
+            <img class="producto-tienda" src="../img/cafe-venta.jpeg" alt="Bolsa de cafe">
+            <h3>
+                Café Chico Cielo Azul
+            </h3>
+            <p class="texto-tienda">
+                Una mezcla de en version pequeña de café de la sierra de Oaxaca. Un sabor suave y sin carga de cafeína.
+            </p>
+            <h4>
+                $100
+            </h4>
+        </section>
+        <hr>
+        <section>
+            <h3>
+                Haz tu pedido aquí
+            </h3>
+            <p>
+                Solo envíanos un mensaje seleccionando el producto que deseas y nos pondremos en contacto contigo.
+            </p>
+            <br>
+        <form action="#">
+            <div>
+                <label for="name">Déjanos tu nombre</label> <br>
+                <input type="text" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Déjanos tu email</label> <br>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="products">Elige tu producto</label> <br>
+                <select name="products" id="products">
+                    <option value="Cafe-1">Café Cielo Morado</option>
+                    <option value="cafe-2">Café Chico Cielo Azul</option>
+                    </select>
+            </div>
+            <br>
+            <div>
+                <label for="comment">Dejanos un mensaje</label><br>
+                <textarea name="comment"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    </main>
+        <footer>
+            <p>Copy left <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons</a> 2024 · Diseñado por <a href="https://paujarito.webflow.io/">paujarito</a></p>
+            <div>
+                <img src="../img/simbolo-de-la-aplicacion-de-facebook (1).png" alt="Facebook">
+                <img src="../img/logotipo-de-instagram.png" alt="Instagram">
+                <img src="../img/nuevo-correo.png" alt="Mail">
+            </div>
+        </footer>
+
+       <!-- script de bootstrap-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
