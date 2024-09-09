@@ -1,0 +1,59 @@
+
+@mixin tablet{
+    @media screen and (max-width:912px){
+        @content;
+    }
+}
+@mixin mobile{
+    @media screen and (max-width:480px){
+        @content;
+    }
+
+}
+
+@media screen and (max-width:480px){
+   
+        .nav-desktop{
+            display: none;
+        }
+        header img{
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .logo-desktop{
+            visibility: hidden;
+        }
+        main {
+            margin-top:30px;
+        }
+
+        .texto-tienda {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .espacio{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+}
+    
+
+@media screen and (min-width:980px){
+
+    div#carouselExample {
+        display:none;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    nav.navbar.navbar-dark.bg-dark.fixed-top{
+        visibility: hidden;
+    }
+
+
+    
+}
